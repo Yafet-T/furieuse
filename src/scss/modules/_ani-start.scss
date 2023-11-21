@@ -1,0 +1,107 @@
+/*------------------CONTAINER------------------*/
+
+.container {
+  border: dashed rgb(0, 0, 0) 3px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  div {
+    position: absolute;
+  }
+}
+
+.box {
+  top: 120%;
+}
+
+/*------------------BOX-0------------------*/
+
+.zero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  img {
+    width: 25%;
+    position: absolute;
+  }
+}
+
+/*------------------BOX-1------------------*/
+
+.one {
+  background-color: rgb(0, 47, 255);
+  width: 40vw;
+}
+
+/*------------------BOX-2------------------*/
+
+.two {
+  background-color: rgb(0, 255, 81);
+  width: 40vw;
+}
+
+/*------------------BOX-3------------------*/
+
+.three {
+  background-color: rgb(255, 0, 183);
+  width: 40vw;
+}
+/*------------------BOX-1------------------*/
+
+.four {
+  background-color: rgb(255, 0, 0);
+  width: 40vw;
+}
+
+/*------------------BOX-2------------------*/
+
+.five {
+  background-color: rgb(255, 136, 0);
+  width: 40vw;
+}
+
+/*------------------BOX-3------------------*/
+
+.six {
+  background-color: rgb(187, 0, 255);
+  width: 40vw;
+}
+/*------------------BOX-3------------------*/
+
+.seven {
+  width: 40vw;
+}
+/*------------------BOX-3------------------*/
+
+.eight {
+  width: 40vw;
+  height: 90vh;
+  position: relative;
+  img {
+    position: absolute;
+  }
+}
+
+/*------------------NAV------------------*/
+
+header nav {
+  position: fixed;
+  border: 0px white solid;
+  display: flex;
+  padding: 40px 70px 0 70px;
+  img {
+    width: 120px;
+  }
+}

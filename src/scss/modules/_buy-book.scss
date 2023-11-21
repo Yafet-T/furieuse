@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "oldstyle";
+  src: url("/src/font/OLDSIH__.TTF");
+  src: url("/src/font/OLDSIH__.woff");
+}
+
+.buy-book {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 50% 15% 5% 15%;
+  img {
+    width: 60vw;
+  }
+  .texte-book {
+    font-family: oldstyle;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    h2 {
+      font-size: 60px;
+    }
+    h3 {
+      font-size: 16px;
+    }
+    p {
+      margin-top: 4%;
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+}

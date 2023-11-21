@@ -1,6 +1,5 @@
 @font-face {
   font-family: "oldstyle";
-  src: url("/src/font/OLDSIH__.TTF");
   src: url("/src/font/OLDSIH__.woff");
 }
 
@@ -8,17 +7,26 @@
   color: white;
   display: flex;
   flex-direction: row;
-  margin: 50% 15% 5% 15%;
+  margin: 30% 15% 20% 15%;
   img {
-    width: 60vw;
+    width: 70vw;
   }
   .texte-book {
+    padding-top: 10vh;
     font-family: oldstyle;
     font-weight: 400;
     font-style: normal;
     line-height: normal;
+    a {
+      font-size: 40px;
+      margin-top: 10vh;
+    }
+
     h2 {
       font-size: 60px;
+      img {
+        width: 30vh;
+      }
     }
     h3 {
       font-size: 16px;

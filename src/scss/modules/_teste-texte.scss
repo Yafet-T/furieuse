@@ -1,0 +1,65 @@
+.teste {
+  width: 100vw;
+  height: 100vh;
+  div {
+    position: absolute;
+    top: 50%;
+
+    width: 40vh;
+    transform: translateY(-60%);
+  }
+}
+
+.texte-01 {
+  right: 18%;
+}
+
+.texte-02 {
+  left: 10%;
+}
+
+.texte-03 {
+  left: 35%;
+}
+
+.texte-04 {
+  right: 10%;
+}
+
+.texte-05 {
+  left: 35%;
+  transform: translateY(-290%) !important;
+}
+
+.texte-06 {
+  right: 15%;
+}
+
+.texte-07 {
+  right: 15%;
+}
+
+.texte-08 {
+  left: 15%;
+}
+
+.texte-09 {
+  right: 20%;
+  transform: translateY(-0%) !important;
+}
+
+.texte-10 {
+  right: 19%;
+}
+
+.texte-11 {
+  rotate: -15deg;
+  left: 18%;
+  transform: translateY(-120%) !important;
+}
+
+.texte-12 {
+  rotate: -10deg;
+  left: 10%;
+  transform: translateY(-180%) !important;
+}
